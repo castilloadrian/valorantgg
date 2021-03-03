@@ -4,7 +4,7 @@ import './App.css';
 const axios = require('axios');
 
 const hitBackend = () => {
-  axios.get('http://localhost:8080/test')
+  axios.get('http://localhost:8080/')
   .then((response) => {
   console.log(response.data)
   })
