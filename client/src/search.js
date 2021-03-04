@@ -2,7 +2,7 @@ import "./search.css";
 import "./App";
 const axios = require('axios');
 
-const hitBackend = () => {
+const hitLeaderboard = () => {
     axios.get('http://localhost:8080/leaderboard')
     .then((response) => {
     console.log(response.data)
@@ -13,7 +13,7 @@ const SearchBar = () => (
     <html>
         <header>
             <span>
-                <button type="submit" onClick={hitBackend}>Top 500 Leaderboard</button>
+                <button type="submit" onClick={hitLeaderboard}>Top 500 Leaderboard</button>
             </span>
             <span>
                 <h1 align="center">
