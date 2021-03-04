@@ -1,11 +1,25 @@
 import "./search.css";
+import "./App";
+const axios = require('axios');
+
+const hitBackend = () => {
+    axios.get('http://localhost:8080/leaderboard')
+    .then((response) => {
+    console.log(response.data)
+    })
+}
 
 const SearchBar = () => (
     <html>
         <header>
-            <h1 align="center">
-                VALORANTGG
-            </h1>
+            <span>
+                <button type="submit" onClick={hitBackend}>Top 500 Leaderboard</button>
+            </span>
+            <span>
+                <h1 align="center">
+                    VALORANTGG
+                </h1>
+            </span>
             <hr></hr><br></br>
         </header>
         <body>
@@ -20,7 +34,7 @@ const SearchBar = () => (
                             placeholder="Find an Agent, ie. player#NA1"
                             name="s" 
                         />
-                        <button type="submit">Search</button>
+                    <button type="submit">Search</button>
                     </form>
             </span>
             <span>
