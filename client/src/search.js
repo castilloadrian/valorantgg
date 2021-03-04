@@ -5,13 +5,7 @@ const axios = require('axios');
 const hitLeaderboard = () => {
     axios.get('http://localhost:8080/leaderboard')
     .then((response) => {
-    var players = response.data.totalPlayers;
-    var i = 0;
-    var list = ""
-    for(i; i < players; i++){
-        list += response.data.players[i].gameName;
-    }
-    console.log(list);
+    console.log(response.data.players);
     })
 }
 
@@ -21,13 +15,27 @@ const hitCharacters = () => {
     console.log(response.data.characters)
     })
 }
+const hitMaps = () => {
+    axios.get('http://localhost:8080/valcontent')
+    .then((response) => {
+    console.log(response.data.maps)
+    })
+}
+const hitSkins = () => {
+    axios.get('http://localhost:8080/valcontent')
+    .then((response) => {
+    console.log(response.data.skins)
+    })
+}
 
 const SearchBar = () => (
     <html>
         <header>
             <span>
                 <button type="submit" onClick={hitLeaderboard}>Top 500 Leaderboard</button>
-                <button type="submit" onClick={hitCharacters}>Game Content</button>
+                <button type="submit" onClick={hitCharacters}>Character List</button>
+                <button type="submit" onClick={hitMaps}>Map List</button>
+                <button type="submit" onClick={hitSkins}>All Weapon Skins</button>
             </span>
             <span>
                 <h1 align="center">
@@ -38,7 +46,7 @@ const SearchBar = () => (
         </header>
         <body>
             <span>
-                    <img src="/client/public/jett.png" alt="jett cant be displayed" align="left"/>
+                    <img src="/client/public/jett.jpg" alt="jett cant be displayed" align="left"/>
             </span>
             <span>
                     <form action="/" method="get" id="form"> 
@@ -52,7 +60,7 @@ const SearchBar = () => (
                     </form>
             </span>
             <span>
-                    <img src="./../public/pheonix.png" alt="pheonix cant be displayed" align="right"/>
+                    <img src="./../public/pheonix.jpg" alt="pheonix cant be displayed" align="right"/>
             </span>
         </body>
     </html>
