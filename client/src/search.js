@@ -5,7 +5,20 @@ const axios = require('axios');
 const hitLeaderboard = () => {
     axios.get('http://localhost:8080/leaderboard')
     .then((response) => {
-    console.log(response.data)
+    var players = response.data.totalPlayers;
+    var i = 0;
+    var list = ""
+    for(i; i < players; i++){
+        list += response.data.players[i].gameName;
+    }
+    console.log(list);
+    })
+}
+
+const hitCharacters = () => {
+    axios.get('http://localhost:8080/valcontent')
+    .then((response) => {
+    console.log(response.data.characters)
     })
 }
 
@@ -14,6 +27,7 @@ const SearchBar = () => (
         <header>
             <span>
                 <button type="submit" onClick={hitLeaderboard}>Top 500 Leaderboard</button>
+                <button type="submit" onClick={hitCharacters}>Game Content</button>
             </span>
             <span>
                 <h1 align="center">
