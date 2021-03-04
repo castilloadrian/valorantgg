@@ -8,10 +8,12 @@ app.use(cors());
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var leaderboardRouter = require('./routes/leaderboard')
+var valcontentRouter = require('./routes/valcontent');
 
 app.use('/', indexRouter);
 app.use('/', usersRouter);
-app.use('/',leaderboardRouter)
+app.use('/',leaderboardRouter);
+app.use('/',valcontentRouter);
 
 
 //Set the port that you want the server to run on
