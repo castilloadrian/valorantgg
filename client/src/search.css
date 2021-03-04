@@ -1,0 +1,11 @@
+#form { 
+    margin: 0 auto; 
+    width:250px;
+    }
+#header-search {
+    position:absolute;
+    min-width:13%;
+    height: 5%;
+    background-color:#CCC;
+    border: 1px solid red;
+}
