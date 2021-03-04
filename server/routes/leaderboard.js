@@ -10,7 +10,7 @@ var temp_json = router.get('/leaderboard', function(req, res, next) {
       api_key: 'RGAPI-6d2557f1-12d0-4bb1-81f7-5dc0581faf35',
       query: '52e9749a-429b-7060-99fe-4595426a0cf7'
     }
-  });
+  }).pipe(res);
 });
 
 temp_json
