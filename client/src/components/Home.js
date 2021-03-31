@@ -1,5 +1,4 @@
-import "./search.css";
-import "./App";
+import './../styles/Home.css';
 const axios = require('axios');
 
 const hitLeaderboard = () => {
