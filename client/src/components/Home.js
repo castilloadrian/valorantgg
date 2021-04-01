@@ -1,24 +1,19 @@
 import './../styles/Home.css';
 
 const SearchBar = () => (
-    <div className="homescreen">
-            <span>
-                    <img src="https://d.newsweek.com/en/full/1578649/valorant-jett-abilities-kit-release.jpg?w=1600&h=1600&l=46&t=9&q=88&f=612b4c14adfe75d49162b7fa83cc3bfb" width="400" height="500" alt="jett cant be displayed" align="left"/>
-            </span>
-            <span>
-                    <form action="/" method="get" className="form"> 
-                        <input
-                            type="text"
-                            id="header-search"
-                            placeholder="Find an Agent, ie. player#NA1"
-                            name="s" 
-                        />
-                    <button type="submit">Search</button>
-                    </form>
-            </span>
-            <span>
-                    <img src="https://i.ytimg.com/vi/ttJMFW2wUQM/maxresdefault.jpg" width="400" height="500" alt="pheonix cant be displayed" align="right"/>
-            </span>
+        <div className="homescreen">
+                <div class="leftimage">
+                        <img src="https://wallpaperaccess.com/full/3037903.jpg"></img>
+                </div>
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
+                <form action="">
+                        <input type="search" placeholder="Playername#NA1" align="top"></input>
+                                <i class="fa fa-search"></i>
+                </form>
+
+                <div class="rightimage">
+                        <img src="https://wallpaperaccess.com/full/3037903.jpg"></img>
+                </div>
     </div>
 );
 

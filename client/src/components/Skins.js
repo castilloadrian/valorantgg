@@ -13,7 +13,7 @@ const hitSkins = () => {
 }
 
 const Skins = () => (
-    <div>
+    <div class="whole3">
        <button type="submit" onClick={hitSkins}>All Weapon Skins</button>
     </div>
 );

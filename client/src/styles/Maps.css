@@ -1,13 +1,17 @@
-.whole{
-    background-color: white;
+.whole2{
+    background-color: #0e1921;
+    height: 90vh;
   }
   table {
+      height: 100%;
       width: 100%;
+      border-collapse: collapse;
   }
   td, th {
-    border: 1px solid #999;
+    border: none;
     padding: 0.5rem;
     text-align: center;
+    color: white;
   }
   img {
       width: 300px;

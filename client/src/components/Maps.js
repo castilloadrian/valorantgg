@@ -15,33 +15,35 @@ import './../styles/Maps.css';
 // }
 
 const MapsScreen = () => (
-<table>
-  <tr>
-    <td>
-        <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/09/16094045/EZddUWTWAAAf3nV.jpg" alt="failed to load"></img>
-        <br></br>Ascent
-    </td>
-    <td>
-        <img src="https://fortskins.org/wp-content/uploads/2020/07/bind-valorant-map-f-1024x597.jpg" alt="failed to load"></img>
-        <br></br>Bind
-    </td>
-    <td>
-        <img src="https://fortskins.org/wp-content/uploads/2020/07/Haven-Valorant-Map-f.jpg" alt="failed to load"></img>
-        <br></br>Haven
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://www.dailyesports.gg/wp-content/uploads/2020/10/960x0-1.jpg" alt="failed to load"></img>
-        <br></br>Icebox
-    </td>
-    <td>
-        <img src="https://static.wikia.nocookie.net/valorant/images/d/d6/Loading_Screen_Split.png" alt="failed to load"></img>
-        <br></br>Split
-    </td>
-  </tr>
-  
-</table>
+  <div className="whole2">
+    <table>
+      <tr>
+        <td>
+            <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/09/16094045/EZddUWTWAAAf3nV.jpg" alt="failed to load"></img>
+            <br></br>Ascent
+        </td>
+        <td>
+            <img src="https://fortskins.org/wp-content/uploads/2020/07/bind-valorant-map-f-1024x597.jpg" alt="failed to load"></img>
+            <br></br>Bind
+        </td>
+        <td>
+            <img src="https://fortskins.org/wp-content/uploads/2020/07/Haven-Valorant-Map-f.jpg" alt="failed to load"></img>
+            <br></br>Haven
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <img src="https://www.dailyesports.gg/wp-content/uploads/2020/10/960x0-1.jpg" alt="failed to load"></img>
+            <br></br>Icebox
+        </td>
+        <td>
+            <img src="https://static.wikia.nocookie.net/valorant/images/d/d6/Loading_Screen_Split.png" alt="failed to load"></img>
+            <br></br>Split
+        </td>
+      </tr>
+      
+    </table>
+</div>
 );
 
 
