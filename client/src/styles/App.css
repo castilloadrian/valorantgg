@@ -7,8 +7,8 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: white;
-  color: black;
+  background-color: #0e1921;
+  color: white;
 }
 
 .nav-links {
@@ -17,4 +17,11 @@ nav{
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  text-decoration: none;
+}
+.homelink {
+  text-decoration: none;
+}
+.valorantgg {
+  color: white;
 }

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './../styles/Maps.css';
-const axios = require('axios');
+// const axios = require('axios');
 
 
 
@@ -15,7 +15,6 @@ const axios = require('axios');
 // }
 
 const MapsScreen = () => (
-
 <table>
   <tr>
     <td>
@@ -43,7 +42,6 @@ const MapsScreen = () => (
   </tr>
   
 </table>
-
 );
 
 

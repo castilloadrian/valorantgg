@@ -1,4 +1,7 @@
-#form { 
+.form { 
     margin: 0 auto; 
     width:250px;
-    }
+}
+.homescreen {
+    background-color: #0e1921;
+}

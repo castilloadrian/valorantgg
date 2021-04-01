@@ -13,9 +13,9 @@ const hitLeaderboard = () => {
 }
 
 const Leaderboard = () => (
-    <div>
-        <button type="submit" onClick={hitLeaderboard}>Top 100 Leaderboard</button>
-    </div>
+    <div className="main">
+         <button type="submit" onClick={hitLeaderboard}>Top 100 Leaderboard</button>
+    </div> 
 );
 
 export default Leaderboard;
