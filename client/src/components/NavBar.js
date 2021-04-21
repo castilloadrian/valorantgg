@@ -1,24 +1,27 @@
 import './../styles/NavBar.css';
 import { Link } from 'react-router-dom';
 
+const navStyle = {
+    color: 'white'
+};
 
 const Nav = () => (
     <div>
         <nav>
-            <Link to="/" className="homelink">
+            <Link style={navStyle} to="/" className="homelink">
                 <h1 className="valorantgg">VALORANTGG</h1>
             </Link>
             <ul className="nav-links">
-                <Link to='/agents' className="homelink">
+                <Link style={navStyle} to='/agents' className="homelink">
                     <li>Agents</li>
                 </Link>
-                <Link to='/maps' className="homelink">
+                <Link style={navStyle} to='/maps' className="homelink">
                     <li>Maps</li>
                 </Link>
-                <Link to='/leaderboard' className="homelink">
+                <Link style={navStyle} to='/leaderboard' className="homelink">
                     <li>Top 100 Leaderboard</li>
                 </Link>
-                <Link to='/skins' className="homelink">
+                <Link style={navStyle} to='/skins' className="homelink">
                     <li>Skins</li>
                 </Link>
             </ul>
