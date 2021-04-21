@@ -1,7 +1,11 @@
+import './../styles/Ascent.css';
+
 function AscentScreen() {
    return (
-
-    <h1>Hello</h1>
+    <div class="whole7">
+        <h1>Hello</h1>
+    </div>
+    
    );
 }
 
