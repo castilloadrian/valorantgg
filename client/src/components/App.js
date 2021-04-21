@@ -5,6 +5,7 @@ import Maps from './Maps';
 import Nav from './NavBar'
 import Skins from './Skins'
 import Leaderboard from './Leaderboard'
+import Ascent from './Ascent'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Maps" component={Maps}/>
         <Route path="/Leaderboard" component={Leaderboard}/>
         <Route path="/Skins" component={Skins}/>
+        <Route path="/Maps/Ascent" exact component={Ascent}/>
       </Switch>
     </Router>
   );

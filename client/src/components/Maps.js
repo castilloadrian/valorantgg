@@ -29,10 +29,13 @@ const MapsScreen = () => (
     </td>
     <td>
         <div class="container">
+          
           <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/09/16094045/EZddUWTWAAAf3nV.jpg" alt="failed to load"></img>
+          <a href="http://localhost:3000/maps/ascent">
           <div class="overlay">
             <div class="text">An open playground for small wars of position and attrition divide two sites on Ascent. Each site can be fortified by irreversible bomb doors; once they’re down, you’ll have to destroy them or find another way. Yield as little territory as possible.</div>
           </div>
+          </a>
         </div>
         <br></br><h3 class="maptext">Ascent</h3>
     </td>
