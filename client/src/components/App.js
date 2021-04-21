@@ -6,6 +6,8 @@ import Nav from './NavBar'
 import Skins from './Skins'
 import Leaderboard from './Leaderboard'
 import Ascent from './Ascent'
+import Haven from './Haven'
+import Icebox from './Icebox'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/Leaderboard" component={Leaderboard}/>
         <Route path="/Skins" component={Skins}/>
         <Route path="/Maps/Ascent" component={Ascent}/>
+        <Route path="/Maps/Haven" component={Haven}/>
+        <Route path="/Maps/Icebox" component={Icebox}/>
       </Switch>
     </Router>
   );

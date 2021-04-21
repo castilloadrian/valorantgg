@@ -42,9 +42,11 @@ const MapsScreen = () => (
     <td>
         <div class="container">
           <img src="https://fortskins.org/wp-content/uploads/2020/07/Haven-Valorant-Map-f.jpg" alt="failed to load"></img>
+          <a href="http://localhost:3000/maps/haven">
           <div class="overlay">
             <div class="text">Beneath a forgotten monastery, a clamour emerges from rival Agents clashing to control three sites. There’s more territory to control, but defenders can use the extra real estate for aggressive pushes.</div>
           </div>
+          </a>
         </div>
         <br></br><h3 class="maptext">Haven</h3>
     </td>
@@ -53,9 +55,11 @@ const MapsScreen = () => (
   <td>
         <div class="container">
           <img src="https://www.dailyesports.gg/wp-content/uploads/2020/10/960x0-1.jpg" alt="failed to load"></img>
+          <a href="http://localhost:3000/maps/icebox">
           <div class="overlay">
             <div class="text">Your next battleground is a secret Kingdom excavation site overtaken by the arctic. The two plant sites protected by snow and metal require some horizontal finesse. Take advantage of the ziplines and they’ll never see you coming.</div>
           </div>
+          </a>
         </div>
         <br></br><h3 class="maptext">Icebox</h3>
     </td>

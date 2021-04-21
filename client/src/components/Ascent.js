@@ -3,9 +3,8 @@ import './../styles/Ascent.css';
 function AscentScreen() {
    return (
     <div class="whole7">
-        <h1>Hello</h1>
+        <h1>Ascent</h1>
     </div>
-    
    );
 }
 
