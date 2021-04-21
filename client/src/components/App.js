@@ -16,10 +16,10 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/Agents" component={Agent}/>
-        <Route path="/Maps" component={Maps}/>
+        <Route path="/Maps" exact component={Maps}/>
         <Route path="/Leaderboard" component={Leaderboard}/>
         <Route path="/Skins" component={Skins}/>
-        <Route path="/Maps/Ascent" exact component={Ascent}/>
+        <Route path="/Maps/Ascent" component={Ascent}/>
       </Switch>
     </Router>
   );
