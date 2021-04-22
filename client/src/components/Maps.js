@@ -21,10 +21,13 @@ const MapsScreen = () => (
     <td>
         <div class="container">
           <img src="https://fortskins.org/wp-content/uploads/2020/07/bind-valorant-map-f-1024x597.jpg" alt="failed to load"></img>
+          <a href="http://localhost:3000/maps/bind">
           <div class="overlay">
             <div class="text">Two sites. No middle. Gotta pick left or right. What’s it going to be then? Both offer direct paths for attackers and a pair of one-way teleporters make it easier to flank.</div>
           </div>
+          </a>
         </div>
+        
         <br></br><h3 class="maptext">Bind</h3>
     </td>
     <td>
@@ -66,9 +69,11 @@ const MapsScreen = () => (
     <td>
         <div class="container">
           <img src="https://static.wikia.nocookie.net/valorant/images/d/d6/Loading_Screen_Split.png" alt="failed to load"></img>
+          <a href="http://localhost:3000/maps/split">
           <div class="overlay">
             <div class="text">If you want to go far, you’ll have to go up. A pair of sites split by an elevated center allows for rapid movement using two rope ascenders. Each site is built with a looming tower vital for control. Remember to watch above before it all blows sky-high.</div>
           </div>
+          </a>
         </div>
         <br></br><h3 class="maptext">Split</h3>
     </td>
