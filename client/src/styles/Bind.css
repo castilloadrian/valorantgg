@@ -1,5 +1,15 @@
 .whole9 {
     background-color: #0e1921;
-    height: 90vh;
+    height: 100vh;
     color:white;
 }
+.bindmap {
+    padding-left: 40%;
+}
+.list{
+    list-style-type: none;
+}
+
+table, th, td {
+    border: 1px solid white;
+  }

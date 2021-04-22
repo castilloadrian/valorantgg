@@ -3,3 +3,13 @@
     height: 90vh;
     color:white;
 }
+.iceboxmap {
+    padding-left: 40%;
+}
+.list{
+    list-style-type: none;
+}
+
+table, th, td {
+    border: 1px solid white;
+  }
