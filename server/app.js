@@ -12,6 +12,7 @@ var valcontentRouter = require('./routes/valcontent');
 var agentsRouter = require('./routes/agents');
 var mapsRouter = require('./routes/maps');
 var ascentRouter = require('./routes/ascent');
+var matchhistory = require('./routes/matchhistory');
 
 app.use('/', indexRouter);
 app.use('/', usersRouter);
@@ -20,6 +21,7 @@ app.use('/',valcontentRouter);
 app.use('/',agentsRouter);
 app.use('/',mapsRouter);
 app.use('/',ascentRouter);
+app.use('/',matchhistory);
 
 
 //Set the port that you want the server to run on
