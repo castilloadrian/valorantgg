@@ -15,6 +15,9 @@ const Nav = () => (
                 <Link style={navStyle} to='/agents' className="homelink">
                     <li>Agents</li>
                 </Link>
+                <Link style={navStyle} to='/matchhistory' className="homelink">
+                    <li>Match History</li>
+                </Link>
                 <Link style={navStyle} to='/maps' className="homelink">
                     <li>Maps</li>
                 </Link>
