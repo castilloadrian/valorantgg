@@ -3,7 +3,7 @@ import './../styles/Home.css';
 const SearchBar = () => (
         <div className="homescreen">
                 <div class="leftimage">
-                        <img src="https://wallpaperaccess.com/full/3037903.jpg"></img>
+                        <img src="https://wallpaperaccess.com/full/3037903.jpg" alt="leftimg"></img>
                 </div>
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
                 <form class="searchform" action="">
@@ -12,7 +12,7 @@ const SearchBar = () => (
                 </form>
 
                 <div class="rightimage">
-                        <img src="https://wallpaperaccess.com/full/3037903.jpg"></img>
+                        <img src="https://wallpaperaccess.com/full/3037903.jpg" alt="rightimg"></img>
                 </div>
     </div>
 );

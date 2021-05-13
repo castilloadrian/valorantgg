@@ -6,7 +6,7 @@ function SplitScreen() {
             SPLIT
             <br></br><hr></hr><br></br>
             <div>
-                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123350/Screenshot-9-768x709.png" class="splitmap"></img>
+                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123350/Screenshot-9-768x709.png" alt="split" class="splitmap"></img>
             </div>
             <br></br>
             <table class="table">

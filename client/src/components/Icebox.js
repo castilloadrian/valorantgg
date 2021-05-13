@@ -6,7 +6,7 @@ function IceboxScreen() {
             ICEBOX
             <br></br><hr></hr><br></br>
             <div>
-                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/11/12090242/db73bd9e504575ee2e703c1142b68a14.png" class="iceboxmap"></img>
+                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/11/12090242/db73bd9e504575ee2e703c1142b68a14.png" alt="icebox" class="iceboxmap"></img>
             </div>
             <br></br>
             <table class="table">

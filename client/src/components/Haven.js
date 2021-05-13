@@ -6,7 +6,7 @@ function HavenScreen() {
             HAVEN
             <br></br><hr></hr><br></br>
             <div>
-                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123333/Screenshot-10.png" class="havenmap"></img>
+                <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123333/Screenshot-10.png" alt="haven" class="havenmap"></img>
             </div>
             <br></br>
             <table class="table">

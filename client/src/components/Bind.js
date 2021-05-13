@@ -6,7 +6,7 @@ function BindScreen() {
         BIND
         <br></br><hr></hr><br></br>
         <div>
-            <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123321/Screenshot-8-768x720.png" class="bindmap"></img>
+            <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/04/14123321/Screenshot-8-768x720.png" alt="bind" class="bindmap"></img>
         </div>
         <br></br>
         <table class="table">

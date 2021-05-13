@@ -5,6 +5,9 @@ const app = express();
 var cors = require('cors');
 app.use(cors());
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var leaderboardRouter = require('./routes/leaderboard');
