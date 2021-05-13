@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Cypher {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-Cypher {
     padding-left: 42%;
 }
 
-.image-abilities {
+.cypher-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-cypher {
     background-color: #0e1921;
     height: 100vh;
     color:white;

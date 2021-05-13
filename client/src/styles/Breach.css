@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Breach {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-Breach {
     padding-left: 42%;
 }
 
-.image-abilities {
+.breach-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-breach {
     background-color: #0e1921;
     height: 100vh;
     color:white;

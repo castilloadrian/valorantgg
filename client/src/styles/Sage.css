@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Sage {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-sage {
     padding-left: 42%;
 }
 
-.image-abilities {
+.sage-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-sage {
     background-color: #0e1921;
     height: 100vh;
     color:white;

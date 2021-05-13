@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Killjoy {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-Killjoy {
     padding-left: 42%;
 }
 
-.image-abilities {
+.killjoy-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-killjoy {
     background-color: #0e1921;
     height: 100vh;
     color:white;

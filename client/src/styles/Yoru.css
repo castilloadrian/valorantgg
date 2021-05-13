@@ -1,22 +1,22 @@
-.table-Jett {
+.table-Yoru {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-yoru {
     padding-left: 42%;
 }
 
-.image-abilities {
+.yoru-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-yoru {
     background-color: #0e1921;
     height: 100vh;
     color:white;
 }
 
 table, th, td {
-    border: 1px solid white;
+    border: 1px solid red;
   }

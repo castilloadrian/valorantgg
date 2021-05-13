@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Omen {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-omen {
     padding-left: 42%;
 }
 
-.image-abilities {
+.omen-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-omen {
     background-color: #0e1921;
     height: 100vh;
     color:white;

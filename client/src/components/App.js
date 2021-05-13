@@ -14,6 +14,20 @@ import Riot from './Riot'
 import MatchHistory from './MatchHistory'
 import MatchHistoryView from './MatchHistoryView'
 import Jett from './agents/Jett'
+import Sage from './agents/Sage'
+import Sova from './agents/Sova'
+import Brimstone from './agents/Brimstone'
+import Astra from './agents/Astra'
+import Breach from './agents/Breach'
+import Cypher from './agents/Cypher'
+import Killjoy from './agents/Killjoy'
+import Omen from './agents/Omen'
+import Pheonix from './agents/Pheonix'
+import Raze from './agents/Raze'
+import Reyna from './agents/Reyna'
+import Skye from './agents/Skye'
+import Viper from './agents/Viper'
+import Yoru from './agents/Yoru'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -36,6 +50,20 @@ function App() {
         <Route path="/InputMatches" component={MatchHistory}/>
         <Route path="/MatchHistory" component={MatchHistoryView}/>
         <Route path="/Agents/Jett" component={Jett}/>
+        <Route path="/Agents/Sage" component={Sage}/>
+        <Route path="/Agents/Sova" component={Sova}/>
+        <Route path="/Agents/Brimstone" component={Brimstone}/>
+        <Route path="/Agents/Astra" component={Astra}/>
+        <Route path="/Agents/Breach" component={Breach}/>
+        <Route path="/Agents/Cypher" component={Cypher}/>
+        <Route path="/Agents/Killjoy" component={Killjoy}/>
+        <Route path="/Agents/Omen" component={Omen}/>
+        <Route path="/Agents/Pheonix" component={Pheonix}/>
+        <Route path="/Agents/Raze" component={Raze}/>
+        <Route path="/Agents/Reyna" component={Reyna}/>
+        <Route path="/Agents/Skye" component={Skye}/>
+        <Route path="/Agents/Viper" component={Viper}/>
+        <Route path="/Agents/Yoru" component={Yoru}/>
       </Switch>
     </Router>
   );

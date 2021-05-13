@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Brimstone {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-brimstone {
     padding-left: 42%;
 }
 
-.image-abilities {
+.brimstone-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-brimstone {
     background-color: #0e1921;
     height: 100vh;
     color:white;

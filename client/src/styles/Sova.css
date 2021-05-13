@@ -1,17 +1,17 @@
-.table-Jett {
+.table-Sova {
     table-layout: fixed;
 }
 
-.image-Jett {
+.image-sova {
     padding-left: 42%;
 }
 
-.image-abilities {
+.sova-abilities {
     width: 150px;
     height: 150px;
 }
 
-.whole-jett {
+.whole-sova {
     background-color: #0e1921;
     height: 100vh;
     color:white;

@@ -1,7 +1,7 @@
 import './../../styles/Jett.css'
 function JettScreen() {
     return(
-        <div class = 'whole'>
+        <div class = 'whole-jett'>
             Jett
             <br></br><hr></hr><br></br>
             <div>
