@@ -1,13 +1,34 @@
 import './../styles/MatchHistory.css';
+const axios = require('axios');
 
-const getValues = () => {
-    var kills = document.getElementById("kills").value;
-    var deaths = document.getElementById("deaths").value;
-    var assists = document.getElementById("assists").value;
-    var fb = document.getElementById("fb").value;
-    var fd = document.getElementById("fd").value;
+const getMatchHistory = () => {
+  axios.get('http://localhost:8080/matchhistory')
+  .then((response) => {
+      var i = 0;
+      for(i; i < response.data.length; i++){
+        console.log(response.data[i]);
+      }
+  })
+}
 
-    console.log(kills,assists,deaths,fb,fd);
+const postMatchHistory = () => {
+  var kills = document.getElementById("kills").value;
+  var deaths = document.getElementById("deaths").value;
+  var assists = document.getElementById("assists").value;
+  var fb = document.getElementById("fb").value;
+  var fd = document.getElementById("fd").value;
+
+  axios({
+    method: 'post',
+    url: 'http://localhost:8080/matchhistory',
+    data: {
+      kills: kills,
+      deaths: deaths,
+      assists: assists,
+      fb: fb,
+      fd: fd
+    }
+  });
 }
 
 const MatchHistory = () => (
@@ -23,7 +44,7 @@ const MatchHistory = () => (
             <input type="text" id="fb" name="fb"></input><br></br>
             <label>First Deaths: </label><br></br>
             <input type="text" id="fd" name="fd"></input><br></br>
-            <button type="button"  onClick={getValues}>Upload</button>
+            <button type="button"  onClick={getMatchHistory}>Upload</button>
       </form>
     </div>
 );

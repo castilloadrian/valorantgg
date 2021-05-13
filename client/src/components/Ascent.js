@@ -6,7 +6,7 @@ function AscentScreen() {
         ASCENT
         <br></br><hr></hr><br></br>
         <div>
-            <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/06/03123207/ascent.png" class="ascentmap"></img>
+            <img src="https://cdn1.dotesports.com/wp-content/uploads/2020/06/03123207/ascent.png" class="ascentmap" alt="ascent"></img>
         </div>
         <br></br>
         <table class="table">
