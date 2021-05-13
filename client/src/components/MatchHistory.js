@@ -11,6 +11,11 @@ const getMatchHistory = () => {
   })
 }
 
+
+const alertbox = () => {
+  alert("Player Added");
+}
+
 const postMatchHistory = () => {
   var kills = document.getElementById("kills").value;
   var deaths = document.getElementById("deaths").value;
@@ -31,6 +36,11 @@ const postMatchHistory = () => {
   });
 }
 
+const callboth = () => {
+  alertbox();
+  postMatchHistory();
+}
+
 const MatchHistory = () => (
     <div class="whole21">
       <form class="matchform">
@@ -44,7 +54,7 @@ const MatchHistory = () => (
             <input type="text" id="fb" name="fb"></input><br></br>
             <label>First Deaths: </label><br></br>
             <input type="text" id="fd" name="fd"></input><br></br>
-            <button type="button"  onClick={getMatchHistory}>Upload</button>
+            <button type="button"  onClick={callboth}>Upload</button>
       </form>
     </div>
 );

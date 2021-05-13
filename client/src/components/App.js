@@ -12,6 +12,7 @@ import Bind from './Bind'
 import Split from './Split'
 import Riot from './Riot'
 import MatchHistory from './MatchHistory'
+import MatchHistoryView from './MatchHistoryView'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -31,7 +32,8 @@ function App() {
         <Route path="/Maps/Bind" component={Bind}/>
         <Route path="/Maps/Split" component={Split}/>
         <Route path="/Riot" component={Riot}/>
-        <Route path="/MatchHistory" component={MatchHistory}/>
+        <Route path="/InputMatches" component={MatchHistory}/>
+        <Route path="/MatchHistory" component={MatchHistoryView}/>
       </Switch>
     </Router>
   );
