@@ -13,6 +13,7 @@ import Split from './Split'
 import Riot from './Riot'
 import MatchHistory from './MatchHistory'
 import MatchHistoryView from './MatchHistoryView'
+import Jett from './agents/Jett'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -22,7 +23,7 @@ function App() {
       <Nav />
       <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/Agents" component={Agent}/>
+        <Route path="/Agents" exact component={Agent}/>
         <Route path="/Maps" exact component={Maps}/>
         <Route path="/Leaderboard" component={Leaderboard}/>
         <Route path="/Skins" component={Skins}/>
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Riot" component={Riot}/>
         <Route path="/InputMatches" component={MatchHistory}/>
         <Route path="/MatchHistory" component={MatchHistoryView}/>
+        <Route path="/Agents/Jett" component={Jett}/>
       </Switch>
     </Router>
   );

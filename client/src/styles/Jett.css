@@ -1,0 +1,22 @@
+.table-Jett {
+    table-layout: fixed;
+}
+
+.image-Jett {
+    padding-left: 42%;
+}
+
+.image-abilities {
+    width: 150px;
+    height: 150px;
+}
+
+.whole {
+    background-color: #0e1921;
+    height: 100vh;
+    color:white;
+}
+
+table, th, td {
+    border: 1px solid white;
+  }
